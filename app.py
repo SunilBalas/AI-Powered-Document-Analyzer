@@ -38,7 +38,7 @@ class App:
                                 st.error(f"Something Went Wrong !")
                                 return
                         else:
-                            st.error("All the documents are in PDF format!")
+                            st.error("All the documents should be in PDF format!")
                             return
                     
                     try:
